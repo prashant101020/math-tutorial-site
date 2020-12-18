@@ -1,0 +1,163 @@
+body{
+    font:arial,helvetica,sans-serif;
+}
+#container {
+    width:1050px;
+    border:1px grey;
+    margin: 0 auto;
+    
+}
+#header{
+    height: 100px;
+    padding:10px;                                                                   ZX
+}
+#brand{
+    float:left;
+    
+}
+h1 a{
+    font-size:50px;
+    font-weight:100;
+    color:#bf26f2;
+    text-decoration:none;
+}
+#searchbox{
+    float:right;
+    background: linear-gradient(#b2f673,#79ec0d);
+    background: -webkit-linear-gradient(#b2f673,#79ec0d);
+    background: -0-linear-gradient(#b2f673,#79ec0d);
+    background: -moz-linear-gradient(#b2f673,#79ec0d);
+    width:400px;
+    height:80px;
+    padding:10px 10px 0px 10px;;
+    margin:20px
+}
+.text{
+    float:left;
+    width:200px;
+    padding:3px;
+    margin:20px;
+    font-size:15px;
+    color:orange;
+    border: 1px solid blue;
+    background: white url(heart.png) right center no-repeat;
+    
+}
+.submit{
+    float:right;
+    margin:19px;
+    background:#0cd4af;
+    padding:5px;
+    
+}
+#menu{
+    height:70px;
+    background: linear-gradient(#c7dc92,#f0f740 );
+    background: -webkit-linear-gradient(#c7dc92,#f0f740 );
+    background: -moz-linear-gradient(#c7dc92,#f0f740 );
+    background: -o-linear-gradient(#c7dc92,#f0f740 );
+padding:10px 0;
+}
+ul{
+    list-style:none;
+}
+#menu ul li{
+    float:left;
+    padding: 0  30px;
+    height:20px;
+    border-right:1px solid purple;
+    
+}
+#menu ul li:last-child{
+    border-right:none;
+}
+#menu ul li a{
+    text-decoration:none;
+    font-size:20px;
+    color:purple;
+    line-height:20px;
+   transition: font-size .3s ease;
+   
+}
+#menu ul li a:hover{
+    font-size:20px;
+    font-weight:bold;
+    color:#c4ca06;
+    
+}
+#introduction{
+    background:linear-gradient(#c6f77c,#9cf01d);
+    background:-webkit-linear-gradient(#c6f77c,#9cf01d);
+    background:-moz-linear-gradient(#c6f77c,#9cf01d);
+    background:-o-linear-gradient(#c6f77c,#9cf01d);
+    padding:30px;
+    margin:17px 0
+}
+#introduction h3{
+    font-size:45px;
+    color:green;
+    font-weight:bold;
+    
+}
+#introduction p{
+    font-size:30px;
+    color:#06b117;
+    text-align:justify;
+}
+.sidebar{
+    height:510px;
+    width:450px;
+    border: 2px solid yellow;
+    border-radius:20px;
+    padding:10px 30px;
+    
+}
+.sidebar h3{
+    color:purple;
+    font-size:30px;
+    }
+.sidebar ul li a{
+    text-decoration:none;
+    font-size:20px;
+    color:purple;
+}
+.sidebar ul li a:hover{
+text-decoration:none;
+    color:#c4ca06;
+    font-size:25px;
+    font-weight:bold;
+    transition: font-size .5s ease;
+}
+#leftsidebar{
+    float:left;
+    
+}
+#leftsidebar ul{
+    padding:8px; 
+}
+#leftsidebar ul li{
+    padding-bottom:10px; 
+    padding:5px;
+    list-style-image:url(arrow.png);
+     
+}
+#rightsidebar{
+    float:right;
+    font-weight: bold;
+}
+#rightsidebar ul li{
+    padding-bottom: 6px;
+    padding-left:30px;
+    padding-top:20px;
+    list-style-image:url(prashant.png);
+}
+.footer{
+height: 60px;
+    margin:600px 0 0;
+background:linear-gradient(#c6f77c,#9cf01d);
+background:-webkit-linear-gradient(#c6f77c,#9cf01d);
+background:-o-linear-gradient(#c6f77c,#9cf01d);
+background:-moz-linear-gradient(#c6f77c,#9cf01d);
+    padding:10px 30px;
+    border-radius:20px 
+}
